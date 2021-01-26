@@ -10,10 +10,7 @@ val libraryVersion = findProperty("version") as String
 version = libraryGroup
 group = libraryVersion
 
-kotlin {
-    explicitApi()
-}
-
 dependencies {
 
+    implementation("com.squareup.okhttp3:okhttp:4.9.0")
 }
